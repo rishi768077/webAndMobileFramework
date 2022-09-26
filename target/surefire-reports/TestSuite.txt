@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 71.349 s <<< FAILURE! - in TestSuite
+setUpClass(runner.TestNGRunner)  Time elapsed: 1.264 s  <<< FAILURE!
+java.lang.AbstractMethodError: Receiver class io.cucumber.testng.TestNGCucumberOptionsProvider$TestNGCucumberOptions does not define or inherit an implementation of the resolved method abstract strict()Z of interface io.cucumber.core.options.CucumberOptionsAnnotationParser$CucumberOptions.
+

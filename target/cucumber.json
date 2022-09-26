@@ -1,0 +1,1269 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-26T05:03:29.284Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4461898300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.browserSetup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify user is able to search flight details from ten origin to ten destinations one after another.",
+        "description": "",
+        "id": "user-is-able-to-search-for-flight-details-and-plan-travel-journey.;verify-user-is-able-to-search-flight-details-from-ten-origin-to-ten-destinations-one-after-another.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 240221700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1592425400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on flight booking homepage",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userIsOnFlightBookingHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 125049200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter source \"paris\" and destination \"london\" location",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"paris\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"london\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinition.MyStepdefs.user_enter_source_and_destination_location(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1657317400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to search flight details successfully",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userShouldBeAbleToSearchFlightDetailsSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-26T05:03:37.435Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3981167300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.browserSetup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify user is able to search flight details from ten origin to ten destinations one after another.",
+        "description": "",
+        "id": "user-is-able-to-search-for-flight-details-and-plan-travel-journey.;verify-user-is-able-to-search-flight-details-from-ten-origin-to-ten-destinations-one-after-another.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 143846300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1378755400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on flight booking homepage",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userIsOnFlightBookingHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118115700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter source \"france\" and destination \"new delhi\" location",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"france\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"new delhi\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinition.MyStepdefs.user_enter_source_and_destination_location(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1460904900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to search flight details successfully",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userShouldBeAbleToSearchFlightDetailsSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-26T05:03:44.524Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1009725100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.browserSetup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify user is able to search flight details from ten origin to ten destinations one after another.",
+        "description": "",
+        "id": "user-is-able-to-search-for-flight-details-and-plan-travel-journey.;verify-user-is-able-to-search-flight-details-from-ten-origin-to-ten-destinations-one-after-another.;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 154308800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1087940900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on flight booking homepage",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userIsOnFlightBookingHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 87022800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter source \"kolkata\" and destination \"new delhi\" location",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kolkata\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"new delhi\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinition.MyStepdefs.user_enter_source_and_destination_location(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1030186000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to search flight details successfully",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userShouldBeAbleToSearchFlightDetailsSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-26T05:03:47.898Z",
+        "before": [
+          {
+            "result": {
+              "duration": 766996300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.browserSetup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify user is able to search flight details from ten origin to ten destinations one after another.",
+        "description": "",
+        "id": "user-is-able-to-search-for-flight-details-and-plan-travel-journey.;verify-user-is-able-to-search-flight-details-from-ten-origin-to-ten-destinations-one-after-another.;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 113184600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1232236700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on flight booking homepage",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userIsOnFlightBookingHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84647400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter source \"france\" and destination \"hyderabad\" location",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"france\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"hyderabad\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinition.MyStepdefs.user_enter_source_and_destination_location(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1343638800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to search flight details successfully",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userShouldBeAbleToSearchFlightDetailsSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-26T05:03:51.447Z",
+        "before": [
+          {
+            "result": {
+              "duration": 714840300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.browserSetup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify user is able to search flight details from ten origin to ten destinations one after another.",
+        "description": "",
+        "id": "user-is-able-to-search-for-flight-details-and-plan-travel-journey.;verify-user-is-able-to-search-flight-details-from-ten-origin-to-ten-destinations-one-after-another.;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 128370900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1044877200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on flight booking homepage",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userIsOnFlightBookingHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90690200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter source \"paris\" and destination \"new delhi\" location",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"paris\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"new delhi\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinition.MyStepdefs.user_enter_source_and_destination_location(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1047474300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to search flight details successfully",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userShouldBeAbleToSearchFlightDetailsSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-26T05:03:54.477Z",
+        "before": [
+          {
+            "result": {
+              "duration": 671124600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.browserSetup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify user is able to search flight details from ten origin to ten destinations one after another.",
+        "description": "",
+        "id": "user-is-able-to-search-for-flight-details-and-plan-travel-journey.;verify-user-is-able-to-search-flight-details-from-ten-origin-to-ten-destinations-one-after-another.;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 172312100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1207637500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on flight booking homepage",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userIsOnFlightBookingHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67678900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter source \"new delhi\" and destination \"france\" location",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"new delhi\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"france\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinition.MyStepdefs.user_enter_source_and_destination_location(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1345605900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to search flight details successfully",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userShouldBeAbleToSearchFlightDetailsSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-26T05:03:57.948Z",
+        "before": [
+          {
+            "result": {
+              "duration": 800632300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.browserSetup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify user is able to search flight details from ten origin to ten destinations one after another.",
+        "description": "",
+        "id": "user-is-able-to-search-for-flight-details-and-plan-travel-journey.;verify-user-is-able-to-search-flight-details-from-ten-origin-to-ten-destinations-one-after-another.;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 141343900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1555627000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on flight booking homepage",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userIsOnFlightBookingHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119133900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter source \"bangalore\" and destination \"new delhi\" location",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"new delhi\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinition.MyStepdefs.user_enter_source_and_destination_location(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1052367100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to search flight details successfully",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userShouldBeAbleToSearchFlightDetailsSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-26T05:04:01.623Z",
+        "before": [
+          {
+            "result": {
+              "duration": 765838800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.browserSetup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify user is able to search flight details from ten origin to ten destinations one after another.",
+        "description": "",
+        "id": "user-is-able-to-search-for-flight-details-and-plan-travel-journey.;verify-user-is-able-to-search-flight-details-from-ten-origin-to-ten-destinations-one-after-another.;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 279428100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1597844700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on flight booking homepage",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userIsOnFlightBookingHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 235503500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter source \"france\" and destination \"bangalore\" location",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"france\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"bangalore\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinition.MyStepdefs.user_enter_source_and_destination_location(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1768690600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to search flight details successfully",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userShouldBeAbleToSearchFlightDetailsSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-26T05:04:06.278Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1061528000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.browserSetup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify user is able to search flight details from ten origin to ten destinations one after another.",
+        "description": "",
+        "id": "user-is-able-to-search-for-flight-details-and-plan-travel-journey.;verify-user-is-able-to-search-flight-details-from-ten-origin-to-ten-destinations-one-after-another.;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 255652100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1199665000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on flight booking homepage",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userIsOnFlightBookingHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62344100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter source \"berlin\" and destination \"germany\" location",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"berlin\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"germany\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinition.MyStepdefs.user_enter_source_and_destination_location(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1398345900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to search flight details successfully",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userShouldBeAbleToSearchFlightDetailsSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-26T05:04:10.262Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1038516600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.browserSetup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify user is able to search flight details from ten origin to ten destinations one after another.",
+        "description": "",
+        "id": "user-is-able-to-search-for-flight-details-and-plan-travel-journey.;verify-user-is-able-to-search-flight-details-from-ten-origin-to-ten-destinations-one-after-another.;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 143851500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1532211600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on flight booking homepage",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userIsOnFlightBookingHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 150327200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter source \"germany\" and destination \"new delhi\" location",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"germany\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"new delhi\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinition.MyStepdefs.user_enter_source_and_destination_location(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1342627700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to search flight details successfully",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userShouldBeAbleToSearchFlightDetailsSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-26T05:04:14.479Z",
+        "before": [
+          {
+            "result": {
+              "duration": 761889000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.browserSetup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Verify user is able to get test data from excel file, fill out ticket details page and print data in console.",
+        "description": "",
+        "id": "user-is-able-to-search-for-flight-details-and-plan-travel-journey.;verify-user-is-able-to-get-test-data-from-excel-file--fill-out-ticket-details-page-and-print-data-in-console.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 159273100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1123923600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User navigated to ticket booking page",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.user_navigated_to_ticket_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 371482400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User fill out the ticket details page with data in excelsheet \"Sheet1\" and rownumber 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sheet1\"",
+                  "offset": 62
+                },
+                {
+                  "val": "0",
+                  "offset": 85
+                }
+              ],
+              "location": "stepDefinition.MyStepdefs.user_fill_out_the_ticket_details_page_with_data_in_excelsheet_and_rownumber(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is able to navigate further in ticket booking journey",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.user_is_able_to_navigate_further_in_ticket_booking_journey()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-26T05:04:16.901Z",
+        "before": [
+          {
+            "result": {
+              "duration": 670439200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.browserSetup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Verify user is able to get test data from excel file, fill out ticket details page and print data in console.",
+        "description": "",
+        "id": "user-is-able-to-search-for-flight-details-and-plan-travel-journey.;verify-user-is-able-to-get-test-data-from-excel-file--fill-out-ticket-details-page-and-print-data-in-console.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 140387400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1130311100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User navigated to ticket booking page",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.user_navigated_to_ticket_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10663900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User fill out the ticket details page with data in excelsheet \"Sheet1\" and rownumber 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sheet1\"",
+                  "offset": 62
+                },
+                {
+                  "val": "1",
+                  "offset": 85
+                }
+              ],
+              "location": "stepDefinition.MyStepdefs.user_fill_out_the_ticket_details_page_with_data_in_excelsheet_and_rownumber(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is able to navigate further in ticket booking journey",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.user_is_able_to_navigate_further_in_ticket_booking_journey()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-26T05:04:18.858Z",
+        "before": [
+          {
+            "result": {
+              "duration": 705552900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.browserSetup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Verify user is able to get test data from excel file, fill out ticket details page and print data in console.",
+        "description": "",
+        "id": "user-is-able-to-search-for-flight-details-and-plan-travel-journey.;verify-user-is-able-to-get-test-data-from-excel-file--fill-out-ticket-details-page-and-print-data-in-console.;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 108462800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1306188200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User navigated to ticket booking page",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.user_navigated_to_ticket_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5726200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User fill out the ticket details page with data in excelsheet \"Sheet1\" and rownumber 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sheet1\"",
+                  "offset": 62
+                },
+                {
+                  "val": "2",
+                  "offset": 85
+                }
+              ],
+              "location": "stepDefinition.MyStepdefs.user_fill_out_the_ticket_details_page_with_data_in_excelsheet_and_rownumber(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is able to navigate further in ticket booking journey",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.user_is_able_to_navigate_further_in_ticket_booking_journey()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-26T05:04:20.990Z",
+        "before": [
+          {
+            "result": {
+              "duration": 650832200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.browserSetup()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Verify user is able to get test data from excel file, fill out ticket details page and print data in console.",
+        "description": "",
+        "id": "user-is-able-to-search-for-flight-details-and-plan-travel-journey.;verify-user-is-able-to-get-test-data-from-excel-file--fill-out-ticket-details-page-and-print-data-in-console.;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 143920700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1126921700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User navigated to ticket booking page",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.user_navigated_to_ticket_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6010000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User fill out the ticket details page with data in excelsheet \"Sheet1\" and rownumber 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sheet1\"",
+                  "offset": 62
+                },
+                {
+                  "val": "3",
+                  "offset": 85
+                }
+              ],
+              "location": "stepDefinition.MyStepdefs.user_fill_out_the_ticket_details_page_with_data_in_excelsheet_and_rownumber(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is able to navigate further in ticket booking journey",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.user_is_able_to_navigate_further_in_ticket_booking_journey()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-26T05:04:22.922Z",
+        "before": [
+          {
+            "result": {
+              "duration": 725325100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.browserSetup()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Verify user is able to get test data from excel file, fill out ticket details page and print data in console.",
+        "description": "",
+        "id": "user-is-able-to-search-for-flight-details-and-plan-travel-journey.;verify-user-is-able-to-get-test-data-from-excel-file--fill-out-ticket-details-page-and-print-data-in-console.;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 129619300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.MyStepdefs.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1210377400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User navigated to ticket booking page",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.user_navigated_to_ticket_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5247100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User fill out the ticket details page with data in excelsheet \"Sheet1\" and rownumber 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sheet1\"",
+                  "offset": 62
+                },
+                {
+                  "val": "4",
+                  "offset": 85
+                }
+              ],
+              "location": "stepDefinition.MyStepdefs.user_fill_out_the_ticket_details_page_with_data_in_excelsheet_and_rownumber(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is able to navigate further in ticket booking journey",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.user_is_able_to_navigate_further_in_ticket_booking_journey()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "User is able to search for flight details and plan travel journey.",
+    "description": "",
+    "id": "user-is-able-to-search-for-flight-details-and-plan-travel-journey.",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/FlightDetails.feature",
+    "tags": []
+  }
+]
